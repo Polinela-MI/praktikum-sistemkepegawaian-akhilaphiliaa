@@ -4,8 +4,8 @@ public class KaryawanParuhWaktu extends Karyawan{
 
     private int jamkerja;
 
-    public KaryawanParuhWaktu(int nik, String nama, int gajipokok) {
-        super(nik, nama, gajipokok);
+    public KaryawanParuhWaktu( String nama, int gajipokok) {
+        super( nama, gajipokok);
         this.jamkerja = jamkerja;
     }
 
